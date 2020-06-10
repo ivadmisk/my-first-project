@@ -192,3 +192,7 @@ body {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
 }
+
+.user-des {
+  text-align: center;
+}
