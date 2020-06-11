@@ -2,8 +2,6 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="вёрстка, HTML, CSS, блог">
-    <meta name="description" content="Блог о процессе обучения веб-технологиям">
     <title>Сайт начинающего верстальщика</title>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -12,9 +10,10 @@
       <h1>Сайт начинающего верстальщика</h1>
     </header>
     <main>
-      <nav>
+      <img class="avatar" src="img/raccoon.svg" width="80" height="80" alt="Аватарка">
+      <nav class="blog-navigation">
         <h2>Записи в блоге</h2>
-        <ul class="days">
+        <ul>
           <li><a href="day-1.html">День первый. Как я забыл покормить кота</a></li>
           <li><a href="day-2.html">День второй. Хочу быть верстальщиком</a></li>
           <li><a href="day-3.html">День третий. Мой кот на меня обиделся</a></li>
@@ -37,7 +36,15 @@
         <p>Моё первое задание — вести дневник и честно писать обо всех своих свершениях.</p>
       </section>
       <section>
-        Раздел про навыки
+        <h2>Навыки</h2>
+        <dl class="skills">
+          <dt>HTML</dt>
+          <dd><div class="skills-level skills-level-ok" style="width: 60%;">60%</div></dd>
+          <dt>CSS</dt>
+          <dd><div class="skills-level" style="width: 20%;">20%</div></dd>
+          <dt>JS</dt>
+          <dd><div class="skills-level1" style="width: 100%;">Все когда-нибудь будет!</div></dd>
+        </dl>
       </section>
     </main>
     <footer>

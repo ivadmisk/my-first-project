@@ -1,23 +1,21 @@
 body {
   padding: 0 30px;
-  font-size: 14px;
-  line-height: 22px;
-  font-family: "Georgia", serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
   color: #222222;
+
+  background: #ffffff url("img/bg-page.png") no-repeat top center;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 36px;
   line-height: normal;
 }
 
 h2 {
   font-size: 20px;
   line-height: normal;
-}
-
-nav {
-  color: #888888;
 }
 
 aside {
@@ -52,7 +50,63 @@ time {
 
 a[href] {
   color: #0099ef;
-  text-decoration-line: underline;
+  text-decoration: underline;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.blog-navigation {
+  margin-bottom: 30px;
+  padding: 20px;
+
+  background-color: #4470c4;
+  border: 5px solid #2d508f;
+
+  color: #ffffff;
+}
+
+.blog-navigation h2 {
+  margin-top: 0;
+}
+
+.blog-navigation ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.blog-navigation li {
+  margin-bottom: 5px;
+}
+
+.blog-navigation a {
+  color: #ffffff;
+}
+
+.skills dd {
+  margin: 0;
+  margin-bottom: 10px;
+
+  background-color: #e8e8e8;
+}
+
+.skills-level {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4470c4;
+}
+
+.skills-level1 {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
+.skills-level-ok {
+  background-color: #47bb52;
 }
 
 .days {
