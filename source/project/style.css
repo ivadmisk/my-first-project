@@ -9,7 +9,8 @@ body {
 }
 
 h1 {
-  font-size: 36px;
+  font-weight: 400;
+  font-size: 24px;
   line-height: normal;
 }
 
@@ -25,13 +26,27 @@ aside {
 
 pre,
 code {
+  background-color: #fafaff;
+  border: 1px solid #c6c4f4;
+  border-radius: 4px;
+  color: #3632ad;
   font-family: "Courier New", "Courier", monospace;
-  color: #6a2cce;
 }
 
 pre {
-  line-height: normal;
+  padding: 5px;
 }
+
+code {
+  padding: 2px 5px;
+}
+
+pre code {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+}
+
 
 blockquote {
   padding-left: 14px;
@@ -53,15 +68,37 @@ a[href] {
   text-decoration: underline;
 }
 
+del {
+  color: #ff4400;
+}
+
+ins {
+  color: rgb(105, 178, 83);
+}
+
+del,
+ins {
+  text-decoration: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
 .avatar {
   border-radius: 50%;
+}
+
+.avatar-container {
+  text-align: center;
 }
 
 .blog-navigation {
   margin-bottom: 30px;
   padding: 20px;
 
-  background-color: #4470c4;
+  background-color: rgba(68, 112, 196, 0.7);
   border: 5px solid #2d508f;
 
   color: #ffffff;
@@ -96,13 +133,6 @@ a[href] {
   text-align: center;
   color: #ffffff;
   background-color: #4470c4;
-}
-
-.skills-level1 {
-  font-size: 12px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #ff0000;
 }
 
 .skills-level-ok {
@@ -161,4 +191,40 @@ figcaption {
 
 footer {
   margin-top: 30px;
+  padding-top: 10px;
+  color: #aaaaaa;
+  border-top: 1px solid #aaaaaa;
+}
+
+.page-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+}
+
+.partnership {
+  margin: 30px 0;
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4a87fa;
+  background-image: url("img/bg-partnership.svg");
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.italic {
+  font-style: italic;
 }
